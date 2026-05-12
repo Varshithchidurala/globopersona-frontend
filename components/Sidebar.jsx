@@ -24,7 +24,7 @@ export default function Sidebar() {
         </Link>
 
         <Link
-          href="/campaigns"
+          href="/dashboard/campaigns"
           className="flex items-center gap-3 hover:text-blue-400 transition"
         >
           <Megaphone size={22} />
@@ -32,7 +32,7 @@ export default function Sidebar() {
         </Link>
 
         <Link
-          href="/create-campaign"
+          href="/dashboard/create-campaign"
           className="flex items-center gap-3 hover:text-blue-400 transition"
         >
           <PlusCircle size={22} />
