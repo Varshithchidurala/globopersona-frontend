@@ -1,36 +1,151 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# GloboPersona Frontend Dashboard
 
-## Getting Started
+A modern email campaign management dashboard built using Next.js and Tailwind CSS as part of the GloboPersona Frontend Assessment.
 
-First, run the development server:
+## Live Demo
 
-```bash
+Frontend Deployment:
+https://globopersona-final-dashboard.vercel.app/dashboard
+
+## GitHub Repository
+
+https://github.com/Varshithchidurala/globopersona-frontend
+
+---
+
+# Project Overview
+
+This project is a responsive frontend dashboard for managing email marketing campaigns. The application provides a clean and modern user interface for viewing campaign analytics, monitoring campaign performance, and creating new campaigns.
+
+The frontend was designed with a component-based architecture and responsive layout principles to ensure scalability and maintainability.
+
+---
+
+# Features
+
+- Modern responsive dashboard UI
+- Sidebar navigation
+- Campaign analytics overview
+- Campaign performance table
+- Create campaign form
+- Reusable React components
+- Responsive layout using Tailwind CSS
+- Clean project structure
+
+---
+
+# Pages Included
+
+## Dashboard
+
+Displays:
+- Total campaigns
+- Emails sent
+- Engagement rate
+- Campaign performance table
+
+## Campaigns Page
+
+Displays campaign listing and campaign statistics.
+
+## Create Campaign Page
+
+Provides a form interface to create new email campaigns.
+
+---
+
+# Tech Stack
+
+- Next.js 16
+- React
+- Tailwind CSS
+- Lucide React Icons
+- Vercel Deployment
+
+---
+
+# Folder Structure
+
+app/
+├── dashboard/
+│   └── page.js
+│
+├── campaigns/
+│   └── page.js
+│
+├── create-campaign/
+│   └── page.js
+│
+└── page.js
+
+components/
+├── Sidebar.jsx
+├── Topbar.jsx
+├── StatCard.jsx
+├── CampaignTable.jsx
+└── CampaignForm.jsx
+
+---
+
+# Installation & Setup
+
+Clone the repository:
+
+git clone https://github.com/Varshithchidurala/globopersona-frontend.git
+
+Navigate to project folder:
+
+cd globopersona-frontend
+
+Install dependencies:
+
+npm install
+
+Run development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open browser:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# Deployment
 
-To learn more about Next.js, take a look at the following resources:
+The frontend application is deployed using Vercel.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Deployment Platform:
+- Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+# Design Approach
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The application focuses on:
+- Clean UI design
+- Reusable components
+- Responsive layouts
+- Simple navigation
+- Professional dashboard experience
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Tailwind CSS was used to rapidly build a modern and scalable interface.
+
+---
+
+# Future Improvements
+
+- Backend API integration
+- Authentication system
+- Real-time analytics
+- Dark mode support
+- Campaign filtering and search
+- Data visualization charts
+
+---
+
+# Author
+
+Varshith Chidurala
+
+Frontend Assessment Submission for GloboPersona
