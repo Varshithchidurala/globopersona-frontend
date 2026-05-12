@@ -66,16 +66,14 @@ Provides a form interface to create new email campaigns.
 
 # Folder Structure
 
+```bash
 app/
 ├── dashboard/
 │   └── page.js
-│
 ├── campaigns/
 │   └── page.js
-│
 ├── create-campaign/
 │   └── page.js
-│
 └── page.js
 
 components/
@@ -84,7 +82,7 @@ components/
 ├── StatCard.jsx
 ├── CampaignTable.jsx
 └── CampaignForm.jsx
-
+```
 ---
 
 # Installation & Setup
